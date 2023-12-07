@@ -18,5 +18,8 @@
   },
   "engines": {
     "node": "^16.18"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.8.1"
   }
 }
