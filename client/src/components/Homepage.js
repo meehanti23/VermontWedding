@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Homepage = (props) => {
   const targetDate = new Date("July 21, 2024 00:00:00").getTime(); 
@@ -24,6 +25,11 @@ const Homepage = (props) => {
       <div className="header-info">
         <h4>JULY 21, 2024 * CHITTENDEN, VT</h4>
         <h4>{daysToGo} {daysToGo === 1 ? 'DAY TO GO' : 'DAYS TO GO'}</h4>
+      </div>
+      <div>
+        <h4>WELCOME PARTY</h4>
+        <h5>SATURDAY, JULY 20, 2024</h5>
+        <h5>7:00 PM-10:00 PM</h5>
       </div>
     </>
   );
